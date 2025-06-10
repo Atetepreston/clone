@@ -1,7 +1,26 @@
-venv/
+# macOS system files
+.DS_Store
+
+# SQLite database files
+*.sqlite3
+
+# Log files
+*.log
+
+# Python cache and bytecode files
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Virtual environment folder
+.venv/
+
+# Environment variable files
 .env
-.DS_Store
-*.sqlite3
-*.log
+
+# Flask instance folder
+instance/
+
+# VS Code settings folder
+.vscode/
